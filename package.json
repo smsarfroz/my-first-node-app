@@ -1,0 +1,28 @@
+{
+  "name": "my-first-node-app",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --run -- --watch",
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smsarfroz/my-first-node-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smsarfroz/my-first-node-app/issues"
+  },
+  "homepage": "https://github.com/smsarfroz/my-first-node-app#readme",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
